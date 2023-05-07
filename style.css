@@ -1,0 +1,310 @@
+/* Styles for the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Styles for the header */
+  header {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    margin-left: 20px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  header ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Styles for the hero section */
+  #hero {
+    background-image: url('./img/05.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ea1919;
+  }
+  
+  #hero h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cta:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Styles for the about section */
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+  }
+  
+  #about img {
+    max-width: 50%;
+    margin-bottom: 100px;
+  }
+  
+  /* Styles for the events section */
+  #events {
+    padding: 50px;
+  }
+  
+  #events h2 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #events ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #events ul li {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 400px;
+  }
+  
+  #events ul li img {
+    max-width: 100%;
+  }
+  
+  #events ul li h3 {
+    margin: 20px;
+  }
+  
+  #events ul li p {
+    margin: 20px;
+  }
+  
+  #events ul li .cta {
+    display: block;
+    margin: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  #events ul li .cta:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Styles for the contact section */
+  #contact {
+    background-color: #FFBA75;
+   
+    padding: 50px;
+    color: #fff;
+    }
+    
+    #contact h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+    }
+    
+    #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    
+    #contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+    }
+    
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    }
+    
+    #contact textarea {
+    resize: vertical;
+    }
+    
+    #contact input[type="submit"] {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    }
+    
+    #contact input[type="submit"]:hover {
+    background-color: #007bff;
+    color: #fff;
+    }
+    
+
+    #environment {
+        margin-bottom: 30px;
+    }
+        
+    #environment h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+        
+    #environment p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+        
+    #environment ul {
+        list-style: disc;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+        
+    #environment li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+        
+    #get-involved {
+        margin-bottom: 30px;
+    }
+        
+    #get-involved h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+        
+    #get-involved p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+        
+    #get-involved ul {
+        list-style: disc;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+        
+    #get-involved li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+        
+    #get-involved a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+        
+    #get-involved a:hover {
+        text-decoration: underline;
+    }
+
+    /* Styles for the footer */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    footer p {
+    margin: 0;
+    text-align: center;
+    }
+    
+    footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    footer ul li {
+    margin-left: 20px;
+    }
+    
+    footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s ease;
+    }
+    
+    footer ul li a:hover {
+    color: #007bff;
+    }  
